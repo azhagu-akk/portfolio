@@ -1,0 +1,80 @@
+@media screen and (min-width: 768px) {
+    .timeline {
+      display: grid;
+      grid-template-columns: 1fr 3px 1fr;
+    }
+    .timeline-middle {
+      position: relative;
+      background-image: linear-gradient(45deg, #F27121, #E94057, #8A2387);
+      width: 3px;
+      height: 100%;
+    }
+    .main-middle {
+      opacity: 0;
+    }
+    .timeline-circle {
+      position: absolute;
+      top: 0;
+      left: 50%;
+      width: 15px;
+      height: 15px;
+      border-radius: 50%;
+      background-image: linear-gradient(45deg, #F27121, #E94057, #8A2387);
+      -webkit-transform: translateX(-50%);
+              transform: translateX(-50%);
+    }
+    .timeline-component{
+      margin-top: 30px;
+    }
+  }
+
+
+  @media screen and (min-width:769px) and (max-width:992px){
+    .connect,.kit,.soc, .foot{
+      font-size: 8px;
+    }
+   
+  }
+   
+
+
+
+  @media screen and (max-width:768px){
+    .connect{
+      
+      text-align: justify;
+      padding: 10px 0px 0px 70px !important;
+    
+    }
+    .img10{
+      text-align: center;
+    }
+    .kit{
+      text-align: justify;
+      padding: 10px 0px 0px 100px !important;
+     }
+    .soc  {
+      text-align: justify;
+      padding: 30px 0px 30px 100px !important;
+
+    }
+    .foot{
+      font-size: 8px;
+    }
+    .img1 img{
+     width: 300px;
+    }
+    .design-section{
+      margin-top: -70px !important;
+    }
+    
+    .timeline-content{
+      font-size: 10px;
+      margin-top: 10px;
+    }
+    
+  }
+
+
+
+  

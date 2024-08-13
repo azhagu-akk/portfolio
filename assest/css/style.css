@@ -1,0 +1,253 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Outfit", sans-serif;
+}
+body{
+  overflow-x: hidden;
+}
+
+.home{
+    background-image: url(../images/5184015.jpg);
+    background-size: cover;
+   padding: 10px 0px 100px 0px;
+}
+.nav-link {
+    color: white !important;
+    font-size: 19px !important;
+    background-color: transparent !important;
+    border-radius: 25px;
+    padding: 10px !important;
+    scale: 0.9;
+    transition: 0.1s !important;
+    font-weight: 200 !important;
+   
+}
+.navbar-nav{
+  margin-left: 230px !important;
+}
+.nav-link:hover{
+    scale: 1.1;
+    filter: drop-shadow(10px 4px 7px #ffffff) !important;
+    background-color: none !important;
+    color: white !important;    
+}
+/* .hire{
+    border:1px solid white !important ;
+    font-family: "Playfair Display", serif !important;
+    color: white !important;
+    font-weight: bold !important;
+    transition: 0.5s !important;
+}
+.hire:hover{
+    background-color: white !important;
+    color: black !important;
+} */
+.hire {
+    background-color: white !important;
+    font-family: "Outfit", sans-serif !important;
+    border: 0px !important;
+    font-weight: 500 !important;
+    padding: 10px !important;
+    -webkit-transition: all .15s ease-in-out  !important;
+    transition: all .15s ease-in-out  !important;
+    color: black !important;
+    text-decoration: none !important;
+    scale: 0.9;
+  }
+  .hire:hover {
+    box-shadow: 0 0 10px 0 #fcfcfc inset, 0 0 20px 2px #fcfcfc !important;     
+    scale: 0.7 !important;
+  
+  }
+  .content .resume{
+    border: 1px solid white;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    transition: 0.3s;
+  }
+  .get:hover{
+    transform: translateX(10px);
+  }
+ 
+  .social i{
+    color: white;
+    
+  } 
+  .social a{
+    text-decoration: none;
+  }
+  .content .resume:hover{
+    box-shadow: 0 0 10px 0 #fcfcfc inset, 0 0 20px 2px #fcfcfc !important; 
+    background-color: white;
+    color: black;
+    scale: 1.8;
+   }
+ 
+  .nav-item{
+    margin-left: 30px;
+  }
+  .navbar-nav{
+    margin-left: 185px;
+  }
+  .img1 img{
+    border-radius: 100%;
+    transition: 0.3s;
+    width: 350px;
+    
+  }
+  .img1 img:hover{
+    box-shadow: rgba(240, 240, 240, 0.771) 0px 50px 100px -20px, rgba(252, 249, 249, 0.502) 0px 30px 60px -30px;
+    /* border: 5px solid  white; */
+    scale: 1.1;
+
+  }
+  .content{
+    margin-top: 20px;
+    color: white;
+    font-family: "Playfair Display", serif ;
+  }
+  
+  .about{
+    margin-top: 90px;
+  }
+ 
+    .design-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: white;
+        min-height: 100vh;
+        padding: 50px 0px;
+  
+        
+}
+.img3{
+  border: 1px solid white !important;
+  border-radius: 0% !important;
+  background-color: black !important;
+  color: white !important;
+  transition: 0.3s !important;
+  
+}
+.img3:hover{
+  transform: translateY(-25px);
+  box-shadow: rgba(240, 240, 240, 0.771) 0px 50px 100px -20px, rgba(252, 249, 249, 0.502) 0px 30px 60px -30px !important; 
+}
+
+.design {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.timeline {
+  width: 80%;
+  height: auto;
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.timeline-content {
+  padding: 20px;
+  background: #1f1f1f;
+  border-radius: 5px;
+  color: white;
+  padding: 1.75rem;
+  transition: 0.4s ease;
+  overflow-wrap: break-word !important;
+  margin: 1rem;
+  margin-bottom: 10px;
+  border-radius: 6px;
+}
+.timeline-content:hover{
+    box-shadow: rgba(22, 21, 21, 0.897) 0px 50px 100px -20px, rgba(18, 18, 18, 0.502) 0px 30px 60px -30px;
+    transform: translateY(-25px);
+}
+.timeline-content h3{
+    font-weight: 300;
+}
+
+.timeline-component {
+  margin: 0px 20px 20px 20px;
+}
+.edu h1{
+    text-align: center;
+    font-weight: 500;
+    margin-top: 25px;
+}
+.pro{
+  background-image: url(../images/v748-toon-131.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 10px 0px 100px 0px;
+ 
+}
+.demo h1{
+  color: white;
+  font-weight: 500;
+}
+.img3 a:hover{
+  background-color: white !important;
+  color: black !important;
+
+}
+form input,
+textarea{
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px !important;
+  border:0px !important;
+ 
+}
+
+.me{
+  background-color: black !important;
+    color:white !important;
+    padding: 10px !important;
+    transition: 0.3s !important;
+    font-weight: bold !important;
+}
+.me:hover{
+  background-color: white !important;
+  border: 2px solid black !important;
+  color: black !important;
+}
+.co{
+  background-color: black;
+  background-size: cover;
+  color: white;
+  
+  
+}
+.connect a{
+  text-decoration: none;
+  color: white;
+ 
+}
+.connect ul li{
+  list-style-type: none;
+}
+.connect ul{
+  padding-top: 15px;
+  line-height: 40px;
+}
+.kit a{
+ 
+  line-height: 40px;
+  text-decoration: none;
+  color: white;
+}
+.kit{
+  padding-top: 30px;
+}
+.soc{
+  padding-top: 40px;
+}
+
+
+
+
